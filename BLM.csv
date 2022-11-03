@@ -1,0 +1,14 @@
+BLM,parent,category
+shared capital,NaN,X
+calledupcapital,shared capital,L
+paidup capital,calledupcapital,
+percsshares,paidup capital,
+newcapital,percsshares,
+borrowings,,Y
+longtermborrowings,borrowings,
+shorttermborrowings,borrowings,
+banks,longtermborrowings,
+creditors,shorttermborrowings,M
+provisions,shorttermborrowings,
+provision for expenses,provisions,
+provision for taxes,provisions,
